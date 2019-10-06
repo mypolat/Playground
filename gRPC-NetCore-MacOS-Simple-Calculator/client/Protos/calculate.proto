@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Calculate;
+
+service Calculator {
+  rpc Addition (CommonRequest) returns (CommonResponse);
+  rpc Subtraction (CommonRequest) returns (CommonResponse);
+  rpc Multiplication (CommonRequest) returns (CommonResponse);
+  rpc Division (CommonRequest) returns (CommonResponse);
+}
+
+message CommonRequest {
+  int32 val1 = 1;
+  int32 val2 = 2;
+}
+
+message CommonResponse {
+  int32 result = 1;
+}
