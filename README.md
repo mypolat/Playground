@@ -3,5 +3,5 @@ I'm trying some things in this playground :zap:
 
 - ✅ gRPC
 - ✅ Svelte
-- ❌ Flutter
+- ✅ Flutter
 - ❌ Blazor
